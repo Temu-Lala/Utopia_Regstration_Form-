@@ -10,26 +10,26 @@ A seamless registration process for individuals to showcase their talents.
 A secure and efficient admin dashboard for Utopia's team to discover and engage with exceptional talent.
 # Key Features:
 
-.**User-Friendly Registration Form:**
-**Intuitive interface for capturing essential information.**
-**Secure data handling and storage.**
-**Admin Dashboard for Efficient Talent Management:**
-**Protected by secure login.**
-**Comprehensive overview of registered users.**
-**CRUD operations for managing user data efficiently.**
-**Streamlined selection process based on skills and contributions.**
+.```User-Friendly Registration Form:```
+```Intuitive interface for capturing essential information.```
+```Secure data handling and storage.```
+```Admin Dashboard for Efficient Talent Management:```
+```Protected by secure login.```
+```Comprehensive overview of registered users.```
+```CRUD operations for managing user data efficiently.```
+```Streamlined selection process based on skills and contributions.```
 # Technology Stack:
 
 # Frontend:
-**Next.js**, 
-**TypeScript**,
-**Tailwind CSS**
-**Custom Fonts**
+```Next.js```, 
+```TypeScript```,
+```Tailwind CSS```
+```Custom Fonts```
 # Backend: 
-**Django**, 
-**Django REST Framework**
+```Django```, 
+```Django REST Framework```
 # Database: 
-**PostgreSQL**
+```PostgreSQL```
 # Getting Started:
 
 Clone the Repository:
@@ -39,7 +39,7 @@ Use code with caution. Learn more
 Set Up the Environment:
 Create a virtual environment and activate it.
 Install dependencies: pip install -r requirements.txt
-Configure PostgreSQL database settings in backend/settings.py.**
+Configure PostgreSQL database settings in backend/settings.py.```
 
 Bash
 ```DATABASES = {
@@ -55,7 +55,7 @@ Bash
 ```
 
 # Apply database migrations:
-**python manage.py migrate**
+```python manage.py migrate```
 
 ## install dependences for frontend using 
 Bash
