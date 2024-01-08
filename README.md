@@ -10,7 +10,7 @@ A seamless registration process for individuals to showcase their talents.
 A secure and efficient admin dashboard for Utopia's team to discover and engage with exceptional talent.
 # Key Features:
 
-##User-Friendly Registration Form:
+.User-Friendly Registration Form:
 ##Intuitive interface for capturing essential information.
 ##Secure data handling and storage.
 ##Admin Dashboard for Efficient Talent Management:
