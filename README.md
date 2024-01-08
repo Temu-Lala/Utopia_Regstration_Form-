@@ -60,14 +60,19 @@ Bash
 ## install dependences for frontend using 
 Bash
 npm i
+
 # Running the Project:
 
 # Start the Backend Server:
+
 Bash
 python manage.py runserver
+
 # Start the Frontend Development Server:
+
 Bash
 npm run dev
+
 # Usage:
 
 Registration:
