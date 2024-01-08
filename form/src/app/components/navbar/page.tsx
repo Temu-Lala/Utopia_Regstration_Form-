@@ -16,6 +16,12 @@ export default function Page() {
         <Image src='/logo.png' width={300} height={300} alt='Logo' />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Utopia  </span>
         </a>
+        <Link href='http://127.0.0.1:8000/admin/login/?next=/admin/' className=' text-white hover:underline' >
+              
+                
+              Login
+           
+          </Link> 
         <div className="flex items-center space-x-6 rtl:space-x-reverse">
             <a href="tel:+251988153630" className="text-sm  text-gray-500 dark:text-white hover:underline">+251988153630</a>
         </div>
