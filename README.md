@@ -10,19 +10,19 @@ A seamless registration process for individuals to showcase their talents.
 A secure and efficient admin dashboard for Utopia's team to discover and engage with exceptional talent.
 # Key Features:
 
-**User-Friendly Registration Form:
-**Intuitive interface for capturing essential information.
-**Secure data handling and storage.
-**Admin Dashboard for Efficient Talent Management:
-**Protected by secure login.
-**Comprehensive overview of registered users.
-**CRUD operations for managing user data efficiently.
-**Streamlined selection process based on skills and contributions.
+##User-Friendly Registration Form:
+##Intuitive interface for capturing essential information.
+##Secure data handling and storage.
+##Admin Dashboard for Efficient Talent Management:
+##Protected by secure login.
+##Comprehensive overview of registered users.
+##CRUD operations for managing user data efficiently.
+##Streamlined selection process based on skills and contributions.
 # Technology Stack:
 
-**Frontend: Next.js, TypeScript, Tailwind CSS, Custom Fonts
-**Backend: Django, Django REST Framework
-**Database: PostgreSQL
+##Frontend: Next.js, TypeScript, Tailwind CSS, Custom Fonts
+##Backend: Django, Django REST Framework
+##Database: PostgreSQL
 # Getting Started:
 
 Clone the Repository:
@@ -46,7 +46,7 @@ DATABASES = {
 }
 Apply database migrations: python manage.py migrate
 
-** install dependences for frontend using 
+## install dependences for frontend using 
 Bash
 npm i
 # Running the Project:
