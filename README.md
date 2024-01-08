@@ -20,15 +20,15 @@ A secure and efficient admin dashboard for Utopia's team to discover and engage 
 **Streamlined selection process based on skills and contributions.**
 # Technology Stack:
 
-#Frontend:
+# Frontend:
 **Next.js**, 
 **TypeScript**,
 **Tailwind CSS**
 **Custom Fonts**
-#Backend: 
+# Backend: 
 **Django**, 
 **Django REST Framework**
-8#Database: 
+# Database: 
 **PostgreSQL**
 # Getting Started:
 
@@ -39,9 +39,10 @@ Use code with caution. Learn more
 Set Up the Environment:
 Create a virtual environment and activate it.
 Install dependencies: pip install -r requirements.txt
-Configure PostgreSQL database settings in backend/settings.py.
+Configure PostgreSQL database settings in backend/settings.py.**
+
 Bash
-DATABASES = {
+```DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
@@ -51,6 +52,8 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+```
+
 # Apply database migrations:
 **python manage.py migrate**
 
