@@ -59,19 +59,19 @@ Bash
 
 ## install dependences for frontend using 
 Bash
-npm i
+```npm i```
 
 # Running the Project:
 
 # Start the Backend Server:
 
 Bash
-python manage.py runserver
+```python manage.py runserver```
 
 # Start the Frontend Development Server:
 
 Bash
-npm run dev
+```npm run dev```
 
 # Usage:
 
