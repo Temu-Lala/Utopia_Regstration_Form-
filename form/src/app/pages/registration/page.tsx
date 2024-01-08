@@ -124,7 +124,7 @@ setSkill("")
             value={skill}
             className='w-full text-center h-12 border rounded-xl' 
 
-            placeholder="Email address" onChange={(event)=>setSkill(event.target.value)}  />
+            placeholder="skills" onChange={(event)=>setSkill(event.target.value)}  />
           
         </div>
         <div className="relative mb-6" >

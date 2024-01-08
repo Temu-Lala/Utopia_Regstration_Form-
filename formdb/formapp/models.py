@@ -8,6 +8,18 @@ class Registrashion (models.Model):
     addres = models.CharField(max_length=255 )
     skill = models.CharField(max_length=255)
 
+    STATUS_CHOICES = [
+        ('pending', 'Pending'),
+        ('accepted', 'Accepted'),
+        ('rejected', 'Rejected'),
+    ]
+
+    status = models.CharField(
+        max_length=10,
+        choices=STATUS_CHOICES,
+        default='pending',
+    )
+
     def __str__(self):
         return self.name
 
