@@ -10,19 +10,26 @@ A seamless registration process for individuals to showcase their talents.
 A secure and efficient admin dashboard for Utopia's team to discover and engage with exceptional talent.
 # Key Features:
 
-.User-Friendly Registration Form:
-##Intuitive interface for capturing essential information.
-##Secure data handling and storage.
-##Admin Dashboard for Efficient Talent Management:
-##Protected by secure login.
-##Comprehensive overview of registered users.
-##CRUD operations for managing user data efficiently.
-##Streamlined selection process based on skills and contributions.
+.**User-Friendly Registration Form:**
+**Intuitive interface for capturing essential information.**
+**Secure data handling and storage.**
+**Admin Dashboard for Efficient Talent Management:**
+**Protected by secure login.**
+**Comprehensive overview of registered users.**
+**CRUD operations for managing user data efficiently.**
+**Streamlined selection process based on skills and contributions.**
 # Technology Stack:
 
-##Frontend: Next.js, TypeScript, Tailwind CSS, Custom Fonts
-##Backend: Django, Django REST Framework
-##Database: PostgreSQL
+#Frontend:
+**Next.js**, 
+**TypeScript**,
+**Tailwind CSS**
+**Custom Fonts**
+#Backend: 
+**Django**, 
+**Django REST Framework**
+8#Database: 
+**PostgreSQL**
 # Getting Started:
 
 Clone the Repository:
@@ -44,28 +51,27 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-Apply database migrations: python manage.py migrate
+# Apply database migrations:
+**python manage.py migrate**
 
 ## install dependences for frontend using 
 Bash
 npm i
 # Running the Project:
 
-Start the Backend Server:
+# Start the Backend Server:
 Bash
 python manage.py runserver
-Use code with caution. Learn more
-Start the Frontend Development Server:
+# Start the Frontend Development Server:
 Bash
 npm run dev
-Use code with caution. Learn more
 # Usage:
 
 Registration:
 
 Access the form at http://localhost:3000/
 Fill out and submit.
-Admin Dashboard:
+# Admin Dashboard:
 
 Navigate to the login page (usually http://localhost:8000/admin/)
 Use admin credentials to log in.
